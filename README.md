@@ -8,8 +8,11 @@ Real-time Voting Results: When a user selects an option, the percentage of votes
 Responsive Design: The poll is centered and designed to be responsive on different screen sizes.
 
 Key Functions
+
 markAnswer(i)
+
 This function is triggered when a user clicks on one of the poll answers. It updates the selectedAnswer in the poll object and highlights the selected answer.
 
 showResults()
+
 This function calculates the percentage of votes each answer received and updates the width of the corresponding percentage bar. It also displays the percentage value next to each answer.
